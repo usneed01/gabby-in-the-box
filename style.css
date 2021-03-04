@@ -1,0 +1,43 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+
+}
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(216, 30, 191);
+    font-family: 'Crafty Girls', cursive;
+
+
+
+}
+
+.nav-links{
+    color: rgb(211, 230, 130);
+    display: flex;
+    justify-content: space-around;
+    width: 45em;
+}
+.nav-links a{
+    color: rgb(211, 230, 130);
+    text-decoration: none;
+    letter-spacing: .25em;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.logo{
+color: rgb(221, 221, 205);
+text-emphasis: transform;
+
+}
+
+p{
+    padding: 2em;
+    text-align: center;
+}
