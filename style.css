@@ -1,43 +1,122 @@
+
 *{
-    margin: 0em;
-    padding: 0em;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
 
 }
-nav{
+body{
+    margin: 0;
+    background:linear-gradient(rgba(221, 214, 243, 0.393),rgba(250, 172, 168, 0.562)), url(images/A1606F8A-15D5-4E55-A488-26F86BAEE6C7_1_105_c.jpeg) no-repeat center center / cover ;
+}
+img {
+    display: inline-block;
+    max-width: 25%;
+    margin-bottom: 20px;
+  }
+
+h1{
+    text-shadow: 3px 3px 2px #f8f2f2;
+    font-size: 6rem;
+    font-weight: bolder;
+    justify-content: center;
+    display: flex;
+    text-transform:uppercase ;
+    margin: 25%;  
+
+}
+button{
+    color: #d9e2ebaa;
+    padding: 10px 25px;
     
+    background: transparent ;
+    border: 1px solid rgba(241, 225, 225, 0.788);
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+
+
+}
+
+div{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: rgb(216, 30, 191);
-    font-family: 'Crafty Girls', cursive;
-
-
-
 }
-
-.nav-links{
-    color: rgb(211, 230, 130);
-    display: flex;
-    justify-content: space-around;
-    width: 45em;
-}
-.nav-links a{
-    color: rgb(211, 230, 130);
-    text-decoration: none;
-    letter-spacing: .25em;
-    font-size: 12px;
-    font-weight: bold;
-
-}
-.logo{
-color: rgb(221, 221, 205);
-text-emphasis: transform;
-
-}
-
 p{
-    padding: 2em;
+    align-content: center;
+    padding: 0px 15px 0px 15px;
+    
+}
+span{
+    text-transform:uppercase;
+    text-shadow: purple;
+    color: palevioletred;
+    border-radius: 35%;   
+}
+  
+ul{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    margin:0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+}
+ul li a{
+    position: relative;
+    display:block;
     text-align: center;
+    margin: 0 25px;
+    color: #262626;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+    padding: 5px 10px;
+}
+ul li a:hover{
+    color:#f8f2f2;
+    background: salmon;
+
+}
+ul li a:before{
+    content:'';
+    position:absolute;
+    bottom: 12px;
+    left:12px;
+    width:12px;
+    height: 12px;
+    border: 3px solid salmon;
+    border-width: 0 0 3px 3px;
+    transition: .5s;
+    opacity: 0;
+}
+ul li a:hover:before{
+    bottom: -8px;
+    left:-8px;
+    opacity: 1;
+
+}
+ul li a:after{
+    content:'';
+    position: absolute;
+    top: 12px;
+    right:12px;
+    height:12px;
+    width: 12px;
+    border: 3px solid salmon;
+    border-width: 3px 3px 0 0;
+    transition: .5s;
+    opacity: 0;
+
+}
+ul li a:hover:after{
+    top: -8px;
+    right: -8px;
+    opacity: 1;
 }
