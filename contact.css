@@ -21,6 +21,7 @@ body{
     box-shadow: 4px 4px 2px salmon;
 
 
+
 }
 h2{
     margin-bottom: 20px;
@@ -28,6 +29,45 @@ h2{
     letter-spacing: 3px;
     text-transform: uppercase;
     color:#ff9ec8;
+
+
+}
+.container .input_field{
+    margin-bottom: 10px;
+}
+.container .input_field input[type="text"],
+.container textarea{
+    width: 100%;
+    border: 1px solid #e0e0e0eb;
+    padding:10px;
+
+}
+.container textarea{
+    height: 80px;
+    resize: none;
+
+
+}
+.container .submit_btn input[type="submit"]{
+    border:0;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    background:#ff9ec8e2;
+    color:#332902;
+    letter-spacing: 6px;
+    text-transform:uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container #error_message{
+    margin-bottom: 20px;
+    padding:0px;
+    background: #fc0008bd;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.5s ease;
 
 
 }
