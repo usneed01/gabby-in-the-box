@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background:url(images/fixed.png) no-repeat  center / cover ;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+    width: 100%;
+    background: rgba(0, 0, 0,.5);
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px salmon;
+
+
+}
+h2{
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color:#ff9ec8;
+
+
+}
