@@ -1,1 +1,3 @@
-alert("heyz");
+document.querySelector('button').addEventListener("click", () =>{
+    event.target.;
+})

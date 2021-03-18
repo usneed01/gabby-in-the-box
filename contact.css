@@ -8,21 +8,15 @@
 body{
     background:url(images/fixed.png) no-repeat  center / cover ;
 }
-.container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 350px;
-    width: 100%;
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background: rgba(0, 0, 0,.5);
-    padding: 28px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 2px salmon;
+    margin: 40vh 30vw;
+    padding: 10px
+    }
 
-
-
-}
 h2{
     margin-bottom: 20px;
     text-align: center;
@@ -50,12 +44,12 @@ h2{
 }
 .container .submit_btn input[type="submit"]{
     border:0;
-    margin: 10px;
+    margin-top: 15px;
     padding: 10px;
     width: 100%;
-    background:#ff9ec8e2;
+    background:hsla(334, 71%, 66%, 0.701);
     color:#332902;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
     text-transform:uppercase;
     font-weight: bold;
     border-radius: 5px;
