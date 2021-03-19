@@ -171,7 +171,8 @@ Media Queries
         
     }
 }
-@media (min-width: 62em) {
+@media (min-width: 62em) {/*********
+    700px devices*************/
     h2{
         font-size:2.5rem;
         
