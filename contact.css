@@ -44,7 +44,7 @@ h2{
 }
 .container .submit_btn input[type="submit"]{
     border:0;
-    margin-top: 15px;
+    
     padding: 10px;
     width: 100%;
     background:hsla(334, 71%, 66%, 0.701);
@@ -64,4 +64,12 @@ h2{
     transition: all 0.5s ease;
 
 
+}
+@media (max-width:300px){
+   html h2 .container{
+        width: 100%;
+        padding: 0;
+        margin: 0; 
+
+    }
 }
