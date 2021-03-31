@@ -36,6 +36,9 @@ h1{
      
 
 }
+.cta{
+    text-decoration: none;
+}
 button{
     
     margin:25px;
@@ -169,7 +172,7 @@ Media Queries
 *************************/
 
 @media (max-width: 900px){/*********
-    700px devices*************/
+    900px devices*************/
     .intro{
         column-count: unset;
         
@@ -183,7 +186,8 @@ nav ul{
     text-align: center;
     }
 }
-@media (max-width: 650px){
+@media (max-width: 650px){ /*********
+    650px devices*************/
    h1{ 
     font-size: 3rem;
     }
@@ -191,11 +195,14 @@ nav ul{
         visibility: hidden;
     }
 }
-@media (max-width:1300px){
+@media (max-width:1300px){ /*********
+    1300px devices*************/
     .gabby-1{
         width: 25%;
         flex-basis: content;
     }
+
 }
+
 
   

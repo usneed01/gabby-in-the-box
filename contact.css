@@ -8,6 +8,7 @@
 body{
     background:url(images/fixed.png) no-repeat  center / cover ;
 }
+/****container styling*************/
 .container {
     display: flex;
     justify-content: center;
@@ -42,9 +43,9 @@ h2{
 
 
 }
-.container .submit_btn input[type="submit"]{
+/****submit button styling*************/
+.container .submit_btn input[type="submit"]{ 
     border:0;
-    
     padding: 10px;
     width: 100%;
     background:hsla(334, 71%, 66%, 0.701);
@@ -55,6 +56,7 @@ h2{
     border-radius: 5px;
     cursor: pointer;
 }
+ /********error message display*************/
 .container #error_message{
     margin-bottom: 20px;
     padding:0px;
@@ -65,11 +67,40 @@ h2{
 
 
 }
-@media (max-width:300px){
-   html h2 .container{
-        width: 100%;
-        padding: 0;
-        margin: 0; 
+
+@media (min-width:360px){ /*********
+    360px devices*************/
+   .container{
+       display: flex;
+        padding: 5;
+        margin: 20px; 
 
     }
 }
+@media (min-width:900px){ /*********
+    900px devices*************/
+    .container{
+        display: flex;
+         padding: 20px;
+         margin:10px auto; 
+         width: 538px;
+         
+
+ 
+     }
+
+     @media (min-width:1280px){ /*********
+        1280px devices*************/
+        .container{
+            display: flex;
+             padding: 20px;
+             margin:30px auto; 
+             width: 600px;
+             font-size: 30px;
+    
+     
+         }
+     } 
+    
+    }
+        
