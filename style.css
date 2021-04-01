@@ -170,6 +170,11 @@ ul li a:hover:after{
 /*************************
 Media Queries
 *************************/
+@media (max-width:360px){
+    h2{
+        font-size: 1rem;
+    }
+}
 
 @media (max-width: 900px){/*********
     900px devices*************/
